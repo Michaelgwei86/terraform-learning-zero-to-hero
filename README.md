@@ -1,2 +1,2 @@
-# terraform-learning-zero-to-hero
+# Terraform-learning-zero-to-hero
 Terraform Manifest files
