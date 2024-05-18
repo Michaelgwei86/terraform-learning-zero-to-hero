@@ -1,4 +1,4 @@
-# List, Tuple and Map variable type
+# List and Map variable type
 
 ## `List-type` Variable
 
