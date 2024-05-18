@@ -4,4 +4,4 @@ ami_id = "ami-0895022f3dac85884"
 
 instance_type = "t2.micro"
 
-ec2-tag = "test-instance"
+ec2-tag = "prod-instance"

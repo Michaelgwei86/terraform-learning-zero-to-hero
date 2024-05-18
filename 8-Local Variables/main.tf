@@ -1,18 +1,41 @@
 
 locals {
-  project_tags = {
-    project = "migration project"
-    teams = "devops-team"
-    environment = "staging"
+  prod_tag = {
+    Project = "Migration project"
+    Team = "devops-team"
+    Env = "prod-environment"
   }
+
+  dev_tag = {
+    Project = "Migration project"
+    Team = "devops-team"
+    Env = "dev-environment"
+  } 
+
+  test_tag = {
+    Project = "Migration project"
+    Teams = "devops-team"
+    Env = "test-environment"
+  } 
+
 }
 
-#Below is teh resource block to create EC2 instance
-resource "aws_instance" "test-instance" {
+#Below is teh resource block to create EC2 instance with prod tags
+resource "aws_instance" "prod-instance" {
 
     ami = var.ami_id
     instance_type = var.instance_type
 
-    tags = local.project_tags
+    tags = local.prod_tag
+  
+}
+
+#Below is teh resource block to create EC2 instance with Dev tags
+resource "aws_instance" "dev-instance" {
+
+    ami = var.ami_id
+    instance_type = var.instance_type
+
+    tags = local.dev_tag
   
 }

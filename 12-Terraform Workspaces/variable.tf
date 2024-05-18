@@ -13,11 +13,11 @@ variable "instance_type" {
 variable "instance_name" {
     type = string
     description = "This is the tag fof the subnet"
-    default = "wanda_instance"
+    default = "prod_instance"
 }
 
 variable "bucket_name" {
     type = string
     description = "This the bucket name"
-    default = "wanda-affiliate-resources-"
+    default = "hilltop-resources-"
 }
