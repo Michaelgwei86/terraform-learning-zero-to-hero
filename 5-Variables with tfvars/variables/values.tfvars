@@ -1,7 +1,7 @@
 #Specify the values of the variables created
 
-ami_id = "ami-0895022f3dac85884"
+ami_id = ""
 
-instance_type = "t2.micro"
+instance_type = ""
 
-ec2-tag = "prod-instance"
+ec2-tag = ""

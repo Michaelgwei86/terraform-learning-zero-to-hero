@@ -1,14 +1,14 @@
 
 # Variables for the prod-environment
 
-vpc_cidr_block="11.0.0.0/16"
+vpc_cidr_block=""
 
-vpc_name = "prod-vpc"
+vpc_name = ""
 
-bucket_name = "prod-bucket-hilltop-001"
+bucket_name = ""
 
-ami_id = "ami-0895022f3dac85884"
+ami_id = ""
 
-instance_type = "t2.small"
+instance_type = ""
 
-ec2_name = "prod-instance"
+ec2_name = ""

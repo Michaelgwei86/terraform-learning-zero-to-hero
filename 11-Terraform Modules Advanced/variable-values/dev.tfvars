@@ -1,14 +1,14 @@
 
 # Variables for the dev-environment
 
-vpc_cidr_block="12.0.0.0/16"
+vpc_cidr_block=""
 
-vpc_name = "dev-vpc"
+vpc_name = ""
 
-bucket_name = "dev-bucket-hilltop-001"
+bucket_name = ""
 
-ami_id = "ami-0895022f3dac85884"
+ami_id = ""
 
-instance_type = "t2.micro"
+instance_type = ""
 
-ec2_name = "dev-instance"
+ec2_name = ""

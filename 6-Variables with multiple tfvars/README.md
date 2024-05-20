@@ -1,9 +1,6 @@
 # Terraform Variables with multiple `.tfVars` files
 
-## How to deploy (plan and apply) tf configuration files with .tfvars
-
-
-## To deploy in the `Dev` Environment
+### To deploy in the `Dev` Environment
 
 - Run `Terraform plan` to see preview the resources to be created
 
@@ -18,7 +15,7 @@ terraform apply -var-file="./variables/dev.tfvars"
 ```
 ---
 
-## To deploy in the `Prod` Environment
+### To deploy in the `Prod` Environment
 
 - Run `Terraform plan` to see preview the resources to be created
 
@@ -32,7 +29,7 @@ terraform plan -var-file="./variables/prod.tfvars"
 terraform apply -var-file="./variables/prod.tfvars"
 ```
 
-## To deploy in the `Test` Environment
+### To deploy in the `Test` Environment
 
 - Run `Terraform plan` to see preview the resources to be created
 

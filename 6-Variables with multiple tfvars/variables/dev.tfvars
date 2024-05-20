@@ -1,5 +1,5 @@
-ami_id="ami-0895022f3dac85884"
+ami_id=""
 
-instance_type="t2.micro"
+instance_type=""
 
-ec2_name_tag="dev-instance"
+ec2_name_tag=""
